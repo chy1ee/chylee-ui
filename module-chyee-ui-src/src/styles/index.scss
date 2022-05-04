@@ -1,0 +1,82 @@
+@import "./app.scss";
+@import './media/media.scss';
+
+
+.api-doc {
+  color: #333;
+  margin-bottom: 30px;
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0 0 0;
+  }
+  .subtitle {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0 30px 0;
+    color: #aaa;
+  }
+  .summary {
+    // background: #FFC0CB;
+    display: flex;
+    border-radius: 5px;
+    .method {
+      font-size: 14px;
+      font-weight: 700;
+      min-width: 80px;
+      line-height: 36px;
+      padding: 0 20px;
+      text-align: center;
+      border-radius: 5px 0 0 5px;
+      text-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+      font-family: Titillium Web,sans-serif;
+      color: #fff;
+      background-color: #49cc90;
+    }
+    .path {
+      .el-input__inner {
+        // background: #ecfaf4;
+        flex: 1;
+        line-height: 36px;
+        height: 36px;
+        border-radius: 0;
+      }
+    }
+    .btn {
+      width: 200px;
+      .el-button {
+        line-height: 36px;
+        height: 36px;
+      }
+      .el-button:not(.el-dropdown__caret-button) {
+        width: 120px;
+        border-radius: 0;
+      }
+    }
+  }
+  .api-title  {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    border-left: 4px solid #00ab6d;
+    text-indent: 8px;
+  }
+  .el-table {
+    .cell {
+      color: #333;
+    }
+    thead, tr {
+      background-color: #f8f8f8;
+    }
+    th.el-table__cell {
+      background-color: #f1f1f1;
+      padding: 10px 0
+    }
+  }
+}
